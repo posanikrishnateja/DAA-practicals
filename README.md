@@ -92,7 +92,7 @@ If you'd like a different set of topics (for example: more on flow algorithms li
 
 ## Practical 04 — DAA_Practical04.ipynb
 
-Practical 04 covers advanced algorithmic techniques and important data structures that extend the foundations from the earlier practicals. The goal is to expose students to string algorithms, range-query data structures, randomized and approximation techniques, and basic concepts from computational complexity and flow.
+Practical 04 covers advanced algorithmic techniques and important data structures that extend the foundations from the earlier practicals. The goal is to expose students to string algorithms, rang[...]
 
 Topics covered (examples):
 
@@ -133,3 +133,59 @@ Suggested exercises:
 - Try an approximation algorithm for a small set cover instance and compare with the optimal solution for tiny inputs.
 
 If you want additional topics in Practical 04 (for example: deeper coverage of suffix trees, streaming algorithms, or more on approximation schemes), tell me and I will extend this section.
+
+## Practical 07 — DAA_Practical07.ipynb
+
+Practical 07 builds on earlier practicals and covers advanced algorithmic topics and data structures that are critical for competitive programming and real-world systems. The practical emphasizes problem-solving patterns, performance engineering, and algorithms that scale to large inputs.
+
+Topics covered (examples):
+
+- Advanced Graph Algorithms
+  - Maximum Flow and Minimum Cut (Dinic's algorithm, Push–Relabel overview): efficient algorithms for large flow networks and practical tips for implementation.
+  - Minimum Cost Flow (overview): modeling costs with flows and brief examples.
+  - Strongly Connected Components (Kosaraju / Tarjan) and bridges/articulation points.
+  - Advanced shortest paths: Johnson's algorithm, usages of potentials, and handling negative edges.
+
+- Advanced Data Structures
+  - Heavy-Light Decomposition (HLD): path and subtree queries on trees.
+  - Segment Trees with lazy propagation, persistent segment trees, and segment-tree-of-vectors techniques.
+  - Binary Indexed Tree extensions, ordered statistic trees (policy-based data structures / order-stat tree), and treaps/splay trees.
+
+- String & Number-Theory Algorithms
+  - Suffix Automaton / Suffix Array (construction and applications) and suffix tree concepts overview.
+  - Z-algorithm and KMP revisited for advanced pattern tasks.
+  - Fast Fourier Transform (FFT) / Number Theoretic Transform (NTT) for polynomial multiplication and convolution problems.
+
+- Advanced Dynamic Programming
+  - Bitmask DP (TSP-style problems), DP on trees, and divide-and-conquer DP optimization.
+  - Knuth optimization, convex-hull trick, and other speedups for specific DP recurrences.
+
+- Offline Algorithms and Query Techniques
+  - Mo's algorithm for offline range queries and variants for trees.
+  - Sweep-line algorithms and event-based processing for geometry and interval problems.
+
+- Computational Geometry (introductory to intermediate)
+  - Convex hull (Graham scan / Andrew's monotone chain), line intersection, and rotating calipers applications.
+
+- Algorithm Engineering & Complexity
+  - Practical performance considerations: cache friendliness, constant-factor optimizations, and input/output techniques.
+  - Approximation algorithms and heuristics for NP-hard problems; randomized algorithms and probabilistic analysis.
+
+Learning outcomes:
+
+- Implement and apply advanced graph algorithms (Dinic, SCCs, min-cost flow) to model real problems.
+- Use heavy-light decomposition and persistent segment trees to answer complex tree and range queries efficiently.
+- Apply FFT/NTT to solve convolution and polynomial problems and use advanced DP optimizations to speed up solutions.
+- Understand offline query strategies (Mo's, sweep-line) and basic computational geometry tools for contest tasks.
+- Make pragmatic performance trade-offs and reason about algorithmic constants and memory usage for large inputs.
+
+Suggested exercises:
+
+- Implement Dinic's algorithm and solve a max-flow example; compare with Edmonds–Karp on dense vs sparse graphs.
+- Build a heavy-light decomposition on a tree and support path-sum and subtree-update queries.
+- Use FFT/NTT to multiply large polynomials (or multiply big integers) and compare with naive convolution.
+- Solve a TSP-like DP with bitmasking on small n, and implement divide-and-conquer DP optimization on a sample recurrence.
+- Apply Mo's algorithm to answer offline range query problems and extend it to tree queries.
+- Implement a persistent segment tree to answer historical range queries.
+
+If you want different topics in Practical 07 (for example: deeper coverage of parallel/distributed algorithms, advanced flow algorithms, or more geometry), tell me and I can adjust the section or add specific exercises.
