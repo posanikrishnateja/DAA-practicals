@@ -52,7 +52,7 @@ Feel free to tell me if you want different specific exercises added to Practical
 
 ## Practical 03 — DAA_Practical03.ipynb
 
-Practical 03 focuses on foundational graph and tree algorithms, along with data-structure techniques that are widely used in real-world problem solving. The practical provides hands-on implementations and complexity analysis of core algorithms, and includes both basic and slightly more advanced topics to build intuition and algorithmic thinking.
+Practical 03 focuses on foundational graph and tree algorithms, along with data-structure techniques that are widely used in real-world problem solving. The practical provides hands-on implementat[...]
 
 Topics covered (examples):
 
@@ -88,4 +88,48 @@ Suggested exercises:
 - Implement union-find with path compression and use it to detect cycles in undirected graphs.
 - Practice topological sorting on task-scheduling examples.
 
-If you'd like a different set of topics (for example: more on flow algorithms like Ford–Fulkerson, or graph algorithms for directed graphs), tell me and I can update this section or add extra exercises.
+If you'd like a different set of topics (for example: more on flow algorithms like Ford–Fulkerson, or graph algorithms for directed graphs), tell me and I can update this section or add extra ex[...]
+
+## Practical 04 — DAA_Practical04.ipynb
+
+Practical 04 covers advanced algorithmic techniques and important data structures that extend the foundations from the earlier practicals. The goal is to expose students to string algorithms, range-query data structures, randomized and approximation techniques, and basic concepts from computational complexity and flow.
+
+Topics covered (examples):
+
+- String and Pattern Matching
+  - Knuth–Morris–Pratt (KMP): efficient linear-time pattern search using prefix-function (failure function).
+  - Rabin–Karp (overview): rolling-hash based string matching useful for multiple-pattern search and plagiarism detection.
+  - Trie and Suffix Array basics: prefix trees for fast prefix queries and suffix arrays for substring problems (overview).
+
+- Range Queries and Trees
+  - Segment Trees: range-sum, range-min, and range-update variants; building and querying in O(log n).
+  - Fenwick Tree (Binary Indexed Tree): efficient prefix-sum queries and point updates with O(log n) complexity.
+
+- Randomized and Approximation Algorithms
+  - Randomized Quickselect and randomized hashing techniques.
+  - Approximation algorithms overview (e.g., greedy approximation for set cover) and performance guarantees.
+
+- Network Flow and Matching (introductory)
+  - Max Flow (Ford–Fulkerson / Edmonds–Karp overview): modeling and solving flow problems; applications to bipartite matching.
+  - Bipartite Matching basics: greedy matching and augmenting paths.
+
+- Complexity and NP-Completeness (overview)
+  - P vs NP intuition, reductions, and common NP-complete problems (SAT, Vertex Cover, Hamiltonian Path) with practical implications.
+
+Learning outcomes:
+
+- Implement and test core string algorithms (KMP, rolling hash) and understand use-cases for suffix arrays/tries.
+- Build and use segment trees and Fenwick trees for efficient range queries and updates.
+- Understand randomized algorithms' role and basic approximation guarantees for hard problems.
+- Model simple flow problems and apply max-flow / matching techniques on small examples.
+- Gain a practical intuition for computational complexity and why some problems require approximation or heuristics.
+
+Suggested exercises:
+
+- Implement KMP and use it to find all occurrences of a pattern in a text.
+- Build a segment tree supporting range-sum queries and point updates; compare performance with a naive approach.
+- Solve a small maximum bipartite matching instance using Ford–Fulkerson or a simple augmenting-path method.
+- Implement a Fenwick Tree and use it to answer prefix-sum queries on dynamic arrays.
+- Try an approximation algorithm for a small set cover instance and compare with the optimal solution for tiny inputs.
+
+If you want additional topics in Practical 04 (for example: deeper coverage of suffix trees, streaming algorithms, or more on approximation schemes), tell me and I will extend this section.
