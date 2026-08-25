@@ -4,11 +4,11 @@
 
 ### Bubble Sort
 
-Bubble Sort is a simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated u[...]
+Bubble Sort is a simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeate[...] 
 
 ### Insertion Sort
 
-Insertion Sort builds the final sorted array one item at a time. It iterates through the array and, for each element, inserts it into the correct position relative to the already-sorted portion of the[...]
+Insertion Sort builds the final sorted array one item at a time. It iterates through the array and, for each element, inserts it into the correct position relative to the already-sorted portion of the[...] 
 
 ### Selection Sort
 
@@ -16,11 +16,11 @@ Selection Sort divides the array into a sorted and an unsorted portion. It repea
 
 ### Quick Sort
 
-Quick Sort is a highly efficient divide-and-conquer sorting algorithm. It selects a pivot element, partitions the array into elements less than and greater than the pivot, and then recursively sorts t[...]
+Quick Sort is a highly efficient divide-and-conquer sorting algorithm. It selects a pivot element, partitions the array into elements less than and greater than the pivot, and then recursively sor[...]
 
 ### Merge Sort
 
-Merge Sort is a stable divide-and-conquer sorting algorithm that splits the array into smaller sub-arrays, sorts them, and then merges the sorted sub-arrays back together. Merge Sort guarantees O(n lo[...]
+Merge Sort is a stable divide-and-conquer sorting algorithm that splits the array into smaller sub-arrays, sorts them, and then merges the sorted sub-arrays back together. Merge Sort guarantees O([...]
 
 ## Practical 02 — DAA_Practical02.ipynb
 
@@ -48,23 +48,4 @@ Learning outcomes:
 - Analyze time and space complexity; compare greedy vs dynamic programming trade-offs.
 - Recognize problem characteristics that make greedy approaches correct, versus those requiring dynamic programming.
 
-Feel free to tell me if you want different specific exercises added to Practical 02 (for example: more DP problems or graph-based greedy examples) or if you want the section placed elsewhere in the RE[...]
-
-## Practical 03 — DAA_Practical03.ipynb
-
-Practical 03 focuses on **Recursion and Advanced Problem-Solving Techniques**. This practical deepens understanding of recursive algorithms, their performance characteristics, and optimization strategies.
-
-Topics covered:
-
-- Recursion Fundamentals
-  - Factorial (Iterative vs Recursive): comparing iterative and recursive implementations to understand the overhead of function calls and stack usage.
-  - Base cases and recursive cases: understanding termination conditions and how recursion unwinds.
-  - Time and space complexity analysis: evaluating recursion depth and call stack memory usage.
-
-Learning outcomes:
-
-- Implement recursive algorithms and analyze their efficiency compared to iterative approaches.
-- Understand the trade-offs between code clarity and performance in recursive solutions.
-- Recognize when recursion is beneficial and when iteration is more efficient.
-- Prepare for advanced recursive techniques such as backtracking and divide-and-conquer optimization.
-
+Feel free to tell me if you want different specific exercises added to Practical 02 (for example: more DP problems or graph-based greedy examples) or if you want the section placed elsewhere in th[...]
